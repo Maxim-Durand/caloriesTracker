@@ -1,0 +1,6 @@
+services:
+  expo_dev:
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/root/workspace

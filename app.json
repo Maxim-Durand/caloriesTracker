@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "caloriesTracker",
-    "slug": "caloriesTracker",
+    "slug": "caloriestracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -29,6 +29,12 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b4ccadf-c10e-4b67-ac25-67ac6e47c9ed"
+      }
+    },
+    "owner": "maximd15"
   }
 }
